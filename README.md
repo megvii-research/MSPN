@@ -3,7 +3,7 @@
 This repo is also linked to [github][9].
 
 ## Introduction
-This is a pytorch realization of MSPN proposed in [ Rethinking on Multi-Stage Networks for Human Pose Estimation ][1]. which wins 2017 COCO Keypoints Challenge. The original repo is based on the inner deep learning framework (MegBrain) in Megvii Inc. 
+This is a pytorch realization of MSPN proposed in [ Rethinking on Multi-Stage Networks for Human Pose Estimation ][1]. which wins 2018 COCO Keypoints Challenge. The original repo is based on the inner deep learning framework (MegBrain) in Megvii Inc. 
 
 In this work, we design an effective network MSPN to fulfill human pose estimation task.
 
