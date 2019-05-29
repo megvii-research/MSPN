@@ -12,9 +12,7 @@ The resulting method establishes the new state-of-the-art on both MS COCO and MP
 
 ## Results
 
-### COCO
-
-#### Results on COCO val dataset
+### Results on COCO val dataset
 | Model | Dataset | Input Size | mAP |
 | :-----------------: | :------------------: | :-----------: | :------: |
 | 1-stg MSPN | COCO val | 256x192 | 71.5 |
@@ -24,7 +22,7 @@ The resulting method establishes the new state-of-the-art on both MS COCO and MP
 | 4-stg MSPN<sup>\*</sup> | COCO val | 384x288 | 79.0 |
 | 4-stg MSPN<sup>\+\*</sup> | COCO val | 384x288 | 80.0 |
 
-#### Results on COCO test-dev dataset
+### Results on COCO test-dev dataset
 | Model | Dataset | Input Size | mAP |
 | :-----------------: | :------------------: | :-----------: | :------: |
 | 4-stg MSPN | COCO test-dev | 384x288 | 76.1 |
