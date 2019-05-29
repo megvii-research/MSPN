@@ -146,7 +146,7 @@ python -m torch.distributed.launch --nproc_per_node=gpu_num test.py -i iter_num
 the ***gpu_num*** is the number of gpus, and ***iter_num*** is the iteration number you want to test.
 
 ## Citation
-Please considering citing this project in your publications if it helps your research.
+Please considering citing our projects in your publications if they help your research.
 ```
 @article{li2019rethinking,
   title={Rethinking on Multi-Stage Networks for Human Pose Estimation},
@@ -154,7 +154,19 @@ Please considering citing this project in your publications if it helps your res
   journal={arXiv preprint arXiv:1901.00148},
   year={2019}
 }
+
+@inproceedings{chen2018cascaded,
+  title={Cascaded pyramid network for multi-person pose estimation},
+  author={Chen, Yilun and Wang, Zhicheng and Peng, Yuxiang and Zhang, Zhiqiang and Yu, Gang and Sun, Jian},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={7103--7112},
+  year={2018}
+}
 ```
+And the [code][7] of [Cascaded Pyramid Network][8] is also available. 
+
+## Contact
+You can contact us by email published in our [paper][1] or fenglinglwb@gmail.com.
 
 [1]: https://arxiv.org/abs/1901.00148
 [2]: https://pytorch.org/
@@ -162,5 +174,6 @@ Please considering citing this project in your publications if it helps your res
 [4]: http://cocodataset.org/#download
 [5]: http://human-pose.mpi-inf.mpg.de/
 [6]: https://drive.google.com/open?id=1MW27OY_4YetEZ4JiD4PltFGL_1-caECy
-
+[7]: https://github.com/chenyilun95/tf-cpn
+[8]: https://arxiv.org/abs/1711.07319
 
