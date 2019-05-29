@@ -1,5 +1,7 @@
 # Rethinking on Multi-Stage Networks for Human Pose Estimation
 
+This repo is also linked to [github][9].
+
 ## Introduction
 This is a pytorch realization of MSPN proposed in [ Rethinking on Multi-Stage Networks for Human Pose Estimation ][1]. In this work, we design an effective network MSPN to fulfill human pose estimation task.
 
@@ -12,21 +14,21 @@ The resulting method establishes the new state-of-the-art on both MS COCO and MP
 ## Results
 
 ### Results on COCO val dataset
-| Model | Dataset | Input Size | AP | AP<sup>50</sup> | AP<sup>75</sup> | AP<sup>M</sup> | AP<sup>L</sup> | AR | AR<sup>50</sup> | AR<sup>75</sup> | AR<sup>M</sup> | AR<sup>L</sup> |
-| :-----------------: | :------------------: | :-----------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
-| 1-stg MSPN | COCO val | 256x192 | 71.5 | 90.1 | 78.4 | 67.4 | 77.5 | 77.0 | 93.2 | 83.1 | 72.6 | 83.1 |
-| 2-stg MSPN | COCO val | 256x192 | 74.5 | 91.2 | 81.2 | 70.5 | 80.4 | 79.7 | 94.2 | 85.6 | 75.4 | 85.7 |
-| 3-stg MSPN | COCO val | 256x192 | 75.2 | 91.5 | 82.2 | 71.1 | 81.1 | 80.3 | 94.3 | 86.4 | 76.0 | 86.4 |
-| 4-stg MSPN | COCO val | 256x192 | 75.9 | 91.8 | 82.9 | 72.0 | 81.6 | 81.1 | 94.9 | 87.1 | 76.9 | 87.0 |
-| 4-stg MSPN<sup>\*</sup> | COCO val | 384x288 | 78.8 | 93.1 | 85.6 | 74.9 | 84.7 | 83.8 | 95.9 | 89.5 | 79.7 | 89.6 |
-| 4-stg MSPN<sup>\+\*</sup> | COCO val | 384x288 | 79.8 | 93.4 | 86.1 | 75.9 | 85.6 | 84.3 | 96.0 | 89.7 | 80.2 | 90.0 |
+| Model | Input Size | AP | AP<sup>50</sup> | AP<sup>75</sup> | AP<sup>M</sup> | AP<sup>L</sup> | AR | AR<sup>50</sup> | AR<sup>75</sup> | AR<sup>M</sup> | AR<sup>L</sup> |
+| :-----------------: | :-----------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+| 1-stg MSPN | 256x192 | 71.5 | 90.1 | 78.4 | 67.4 | 77.5 | 77.0 | 93.2 | 83.1 | 72.6 | 83.1 |
+| 2-stg MSPN | 256x192 | 74.5 | 91.2 | 81.2 | 70.5 | 80.4 | 79.7 | 94.2 | 85.6 | 75.4 | 85.7 |
+| 3-stg MSPN | 256x192 | 75.2 | 91.5 | 82.2 | 71.1 | 81.1 | 80.3 | 94.3 | 86.4 | 76.0 | 86.4 |
+| 4-stg MSPN | 256x192 | 75.9 | 91.8 | 82.9 | 72.0 | 81.6 | 81.1 | 94.9 | 87.1 | 76.9 | 87.0 |
+| 4-stg MSPN<sup>\*</sup> | 384x288 | 78.8 | 93.1 | 85.6 | 74.9 | 84.7 | 83.8 | 95.9 | 89.5 | 79.7 | 89.6 |
+| 4-stg MSPN<sup>\+\*</sup> | 384x288 | 79.8 | 93.4 | 86.1 | 75.9 | 85.6 | 84.3 | 96.0 | 89.7 | 80.2 | 90.0 |
 
 ### Results on COCO test-dev dataset
-| Model | Dataset | Input Size | AP |
-| :-----------------: | :------------------: | :-----------: | :------: |
-| 4-stg MSPN | COCO test-dev | 384x288 | 76.1 |
-| 4-stg MSPN<sup>\*</sup> | COCO test-dev | 384x288 | 77.1 |
-| 4-stg MSPN<sup>\+\*</sup> | COCO test-dev | 384x288 | 78.1 |
+| Model | Input Size | AP |
+| :-----------------: | :-----------: | :------: |
+| 4-stg MSPN | 384x288 | 76.1 |
+| 4-stg MSPN<sup>\*</sup> | 384x288 | 77.1 |
+| 4-stg MSPN<sup>\+\*</sup> | 384x288 | 78.1 |
 
 ### Results on MPII dataset
 | Model | Dataset | Input Size | Head | Shoulder | Elbow | Wrist | Hip | Knee | Ankle | Mean |
@@ -173,4 +175,5 @@ You can contact us by email published in our [paper][1] or fenglinglwb@gmail.com
 [6]: https://drive.google.com/open?id=1MW27OY_4YetEZ4JiD4PltFGL_1-caECy
 [7]: https://github.com/chenyilun95/tf-cpn
 [8]: https://arxiv.org/abs/1711.07319
+[9]: https://github.com/fenglinglwb/MSPN
 
