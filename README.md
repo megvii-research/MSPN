@@ -31,7 +31,7 @@ The resulting method establishes the new state-of-the-art on both MS COCO and MP
 | 4-stg MSPN<sup>\+\*</sup> | 384x288 | 78.1 |
 
 ### Results on MPII dataset
-| Model | Dataset | Input Size | Head | Shoulder | Elbow | Wrist | Hip | Knee | Ankle | Mean |
+| Model | Dataset | Input Size | Head | Shoulder | Elbow | Wrist | Hip | Knee | Ankle | Mean (PCKh@0.5) |
 | :-----------------: | :------------------: | :-----------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 | 4-stg MSPN | MPII val | 256x256 | 96.8 | 96.5 | 92.0 | 87.0 | 89.9 | 88.0 | 84.0 | 91.1 |
 | 4-stg MSPN<sup>\#</sup> | MPII test | 256x256 | 98.4 | 97.1 | 93.2 | 89.2 | 92.0 | 90.1 | 85.5 | 92.6 |
