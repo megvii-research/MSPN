@@ -24,14 +24,14 @@ The resulting method establishes the new state-of-the-art on both MS COCO and MP
 | 4-stg MSPN<sup>\+\*</sup> | 384x288 | 79.8 | 93.4 | 86.1 | 75.9 | 85.6 | 84.3 | 96.0 | 89.7 | 80.2 | 90.0 |
 
 ### Results on COCO test-dev dataset
-| Model | Input Size | AP |
-| :-----------------: | :-----------: | :------: |
-| 4-stg MSPN | 384x288 | 76.1 |
-| 4-stg MSPN<sup>\*</sup> | 384x288 | 77.1 |
-| 4-stg MSPN<sup>\+\*</sup> | 384x288 | 78.1 |
+| Model | Input Size | AP | AP<sup>50</sup> | AP<sup>75</sup> | AP<sup>M</sup> | AP<sup>L</sup> | AR | AR<sup>50</sup> | AR<sup>75</sup> | AR<sup>M</sup> | AR<sup>L</sup> |
+| :-----------------: | :-----------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+| 4-stg MSPN | 384x288 | 76.1 | 93.4 | 83.8 | 72.3 | 81.5 | 81.6 | 96.3 | 88.1 | 77.5 | 87.1 |
+| 4-stg MSPN<sup>\*</sup> | 384x288 | 77.1 | 93.8 | 84.6 | 73.4 | 82.3 | 82.3 | 96.5 | 88.9 | 78.4 | 87.7 |
+| 4-stg MSPN<sup>\+\*</sup> | 384x288 | 78.1 | 94.1 | 85.9 | 74.5 | 83.3 | 83.1 | 96.7 | 89.8 | 79.3 | 88.2 |
 
 ### Results on MPII dataset
-| Model | Dataset | Input Size | Head | Shoulder | Elbow | Wrist | Hip | Knee | Ankle | Mean |
+| Model | Split | Input Size | Head | Shoulder | Elbow | Wrist | Hip | Knee | Ankle | Mean |
 | :-----------------: | :------------------: | :-----------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 | 4-stg MSPN | val | 256x256 | 96.8 | 96.5 | 92.0 | 87.0 | 89.9 | 88.0 | 84.0 | 91.1 |
 | 4-stg MSPN<sup>\#</sup> | test | 256x256 | 98.4 | 97.1 | 93.2 | 89.2 | 92.0 | 90.1 | 85.5 | 92.6 |
