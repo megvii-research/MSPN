@@ -1,5 +1,4 @@
-#Rethinking on Multi-Stage Networks for Human Pose Estimation
-----
+# Rethinking on Multi-Stage Networks for Human Pose Estimation
 
 ## Introduction
 This is a pytorch realization of MSPN proposed in [ Rethinking on Multi-Stage Networks for Human Pose Estimation ][1]. In this work, we design an effective network MSPN to fulfill human pose estimation task.
