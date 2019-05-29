@@ -1,5 +1,4 @@
 # Rethinking on Multi-Stage Networks for Human Pose Estimation
-----
 
 ## Introduction
 This is a pytorch realization of MSPN proposed in [ Rethinking on Multi-Stage Networks for Human Pose Estimation ][1]. In this work, we design an effective network MSPN to fulfill human pose estimation task.
@@ -12,9 +11,7 @@ The resulting method establishes the new state-of-the-art on both MS COCO and MP
 
 ## Results
 
-### COCO
-
-#### COCO val
+### Results on COCO val dataset
 | Model | Dataset | Input Size | mAP |
 | :-----------------: | :------------------: | :-----------: | :------: |
 | 1-stg MSPN | COCO val | 256x192 | 71.5 |
@@ -24,14 +21,14 @@ The resulting method establishes the new state-of-the-art on both MS COCO and MP
 | 4-stg MSPN<sup>\*</sup> | COCO val | 384x288 | 79.0 |
 | 4-stg MSPN<sup>\+\*</sup> | COCO val | 384x288 | 80.0 |
 
-#### COCO test-dev
+### Results on COCO test-dev dataset
 | Model | Dataset | Input Size | mAP |
 | :-----------------: | :------------------: | :-----------: | :------: |
 | 4-stg MSPN | COCO test-dev | 384x288 | 76.1 |
 | 4-stg MSPN<sup>\*</sup> | COCO test-dev | 384x288 | 77.1 |
 | 4-stg MSPN<sup>\+\*</sup> | COCO test-dev | 384x288 | 78.1 |
 
-### MPII
+### Results on MPII dataset
 | Model | Dataset | Input Size | PCKh@0.5 |
 | :-----------------: | :------------------: | :-----------: | :------: |
 | 4-stg MSPN | MPII val | 256x256 | 91.1 |
