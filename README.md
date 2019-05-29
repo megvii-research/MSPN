@@ -175,7 +175,7 @@ You can contact us by email published in our [paper][1] or fenglinglwb@gmail.com
 [4]: http://cocodataset.org/#download
 [5]: http://human-pose.mpi-inf.mpg.de/
 [6]: https://drive.google.com/open?id=1MW27OY_4YetEZ4JiD4PltFGL_1-caECy
-[7]: https://github.com/chenyilun95/tf-cpn
+[7]: https://github.com/megvii-detection/tf-cpn
 [8]: https://arxiv.org/abs/1711.07319
 [9]: https://github.com/fenglinglwb/MSPN
 
