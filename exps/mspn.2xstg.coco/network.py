@@ -302,7 +302,7 @@ class MSPN(nn.Module):
         self.ohkm = cfg.LOSS.OHKM
         self.topk = cfg.LOSS.TOPK
         self.ctf = cfg.LOSS.COARSE_TO_FINE
-        self.modules = list() 
+        self.mspn_modules = list() 
         for i in range(self.stage_num):
             if i == 0:
                 has_skip = False
@@ -314,7 +314,7 @@ class MSPN(nn.Module):
             else:
                 gen_skip = False 
                 gen_cross_conv = False 
-            self.modules.append(
+            self.mspn_modules.append(
                     Single_stage_module(
                         self.output_chl_num, self.output_shape,
                         has_skip=has_skip, gen_skip=gen_skip,
@@ -324,7 +324,7 @@ class MSPN(nn.Module):
                         **kwargs
                         )
                     )
-            setattr(self, 'stage%d' % i, self.modules[i])
+            setattr(self, 'stage%d' % i, self.mspn_modules[i])
 
     def _calculate_loss(self, outputs, valids, labels):
         # outputs: stg1 -> stg2 -> ... , res1: bottom -> up
