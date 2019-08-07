@@ -53,7 +53,7 @@ def main():
             if cfg.MODEL.WEIGHT:
                 engine.load_checkpoint(cfg.MODEL.WEIGHT, is_restore=False)
 
-        data_loader = get_train_loader(cfg, num_gpu=num_gpu, is_dist=True)
+        data_loader = get_train_loader(cfg, num_gpu=num_gpu, is_dist=engine.distributed)
 
         # ------------ do training ---------------------------- #
         logger.info("\n\nStart training with pytorch version {}".format(
