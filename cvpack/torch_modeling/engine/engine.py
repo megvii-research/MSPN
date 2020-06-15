@@ -62,6 +62,7 @@ class Engine(object):
             self.devices = [i for i in range(self.world_size)]
         else:
             # todo check non-distributed training
+            self.local_rank = self.args.local_rank
             self.world_rank = 1
             self.devices = parse_torch_devices(self.args.devices)
 
